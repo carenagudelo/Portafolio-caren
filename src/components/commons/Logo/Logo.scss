@@ -1,0 +1,36 @@
+.icon {
+    &--dark {
+        color: #725d5d;
+    }
+
+    &--light {
+        color: #ff90d8;
+    }
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
+    &--small {
+        font-size: 12px;
+    }
+
+    &--medium {
+        font-size: 20px;
+    }
+
+    &--large {
+        font-size: 60px;
+    }
+
+    &--dark {
+        color: #725d5d;
+    }
+
+    &--light {
+        background: linear-gradient(90deg, rgba(255, 224, 208, 1) 0%, rgba(255, 144, 216, 1) 30%, rgba(230, 157, 151, 1) 89%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

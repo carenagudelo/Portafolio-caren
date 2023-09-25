@@ -1,0 +1,23 @@
+.about_container {
+font-family: 'Quicksand', sans-serif;
+display: flex;
+justify-content: space-between;
+}
+
+h2 {
+    color: #F08080;
+}
+
+.img {
+    width: 250px;
+    margin-left: 200px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.about_content{
+justify-content: center;
+padding: 10px;
+border: 1px solid #F08080;
+border-radius: 10px;
+margin-right: 250px;
+}

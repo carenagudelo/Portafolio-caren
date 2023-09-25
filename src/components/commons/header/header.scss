@@ -1,0 +1,27 @@
+.header {
+    &_container {
+        background-color: #f6c8c7;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        padding-left: 30px;
+        align-items: center;
+    }
+    &_button {
+        background-color: #eebbbb;
+        border: 5px double #cc9b9a;
+        height: 100%;
+        margin-right: 10px;
+        padding: 0 20px;
+        border-radius: 10px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        color: #725d5d;
+        font-weight: bold;
+    }
+    &_link{
+        text-decoration: none;
+    }
+}

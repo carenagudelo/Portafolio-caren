@@ -1,0 +1,37 @@
+.projects_container {
+        font-family: 'Quicksand', sans-serif;
+            margin: 80px;
+}
+
+.cards_container {
+    display: flex;
+        justify-content: space-around;
+        padding: 20px;
+}
+.card {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid rgb(174, 132, 117);
+    border-radius: 5px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.card a {
+    text-align: center;
+    background-color: #c697a0;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

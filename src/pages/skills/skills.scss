@@ -1,0 +1,23 @@
+.skills_container {
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #F08080;
+    margin: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.images_container{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.img_logo{
+    width: 70px;
+    height: 70px;
+}
